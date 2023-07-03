@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.NextHome">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/background_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/top_background"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Complete Your Two Steps Profile"
+                android:textColor="@color/purple"
+                android:textSize="30sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom = "20dp"
+                android:background="@drawable/profile_back"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_baseline_house_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="House / Flat /Floor Number" />
+
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/houseNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:inputType="textPersonName"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="22sp"
+                    android:padding="5dp"
+                    android:background="@drawable/edit_back"
+                    android:textColorHint="@color/black"  />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_baseline_location_city_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="City" />
+
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/cityName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:inputType="textPersonName"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="22sp"
+                    android:padding="5dp"
+                    android:background="@drawable/edit_back"
+                    android:textColorHint="@color/black"  />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_baseline_location_on_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Complete Address" />
+
+
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:inputType="textPersonName"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="20sp"
+                    android:hint="Enter Complete Address"
+                    android:padding="5dp"
+                    android:background="@drawable/edit_back"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/ic_baseline_add_home_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="LandMark" />
+
+
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/landMark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:inputType="textPersonName"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:hint="Enter your Nearest landmark"
+                    android:background="@drawable/edit_back" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/previousPage"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Previous"
+                        android:textSize="20sp"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/next_back"
+                        android:fontFamily="@font/roboto_medium"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="15dp"
+                        />
+                    <ProgressBar
+                        android:id="@+id/nextHomeProgressBar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:visibility="invisible"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/save"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Save"
+                        android:textSize="20sp"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:layout_marginEnd="14dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="30dp"
+                        android:background="@drawable/next_back"
+                        android:fontFamily="@font/roboto_medium"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="15dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

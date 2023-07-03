@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/activity_main.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/custom.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/customcheckout.xml" value="0.3333333333333333" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_account.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_blank.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_bottom_navigation.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_change_address.xml" value="0.14666666666666667" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_check_out.xml" value="0.16666666666666666" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_choose_coupon.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_edit_my_profile.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_home.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_login.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_my_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_next_home.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/layout/fragment_see_all.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire - Copy/app/src/main/res/menu/menu.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable-v24/checkoutcoupon_back.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/background.xml" value="0.1695" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/backgroundCoupon.xml" value="0.1955" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/background_login.xml" value="0.1265" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/backgroundcoupon.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/backgroundmenu.xml" value="0.1695" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/button_back.xml" value="0.1265" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/checkoutcoupon_back.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/checkoutitem_back.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/couponbackground.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/edit_back.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/itemback.xml" value="0.1695" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/myprofileback.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/next_back.xml" value="0.187" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/proceedtopayback.xml" value="0.187" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/profile_back.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/rounded_dialog.xml" value="0.188" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/drawable/viewcartback.xml" value="0.1695" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/activity_see_all.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/activity_sign_up.xml" value="0.165625" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/background_coupon.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/custom.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/customcheckout.xml" value="0.3333333333333333" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/customcoupon.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/customimage.xml" value="0.4466666666666667" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/customprofile.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/customservice.xml" value="0.22" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/customviewcart.xml" value="0.22" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_account.xml" value="0.16666666666666666" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_bottom_navigation.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_check_out.xml" value="0.22" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_choose_coupon.xml" value="0.3333333333333333" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_edit_my_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_forget_password.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_home.xml" value="0.12" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_home1.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_home2.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_home_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_my_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_next_home.xml" value="0.25" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_see_all.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_service.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_sign_up.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_splash_screen.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/layout/fragment_verifying.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/drawable/canceltopay.xml" value="0.156" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/drawable/done.xml" value="0.156" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/drawable/proceedtopayback.xml" value="0.156" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/drawable/viewcartback.xml" value="0.156" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/activity_authentication.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/activity_main.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/activity_profile.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/activity_splash_screen.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/activity_verifying.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/customcheckout.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/customviewcart.xml" value="0.16666666666666666" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_change_address.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_check_out.xml" value="0.11944444444444445" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_done.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_edit_my_profile.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_forget_password.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_home.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_home_screen.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_login.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_next_home.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_proceed_to_pay.xml" value="0.14666666666666667" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_sign_up.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_splash_screen.xml" value="0.134765625" />
+        <entry key="..\:/D Android/Hire1 - Copy/app/src/main/res/layout/fragment_verifying.xml" value="0.134765625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

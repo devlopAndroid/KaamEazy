@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_grapht"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.opentechspace.hire.UI.HomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_home_to_seeAll"
+            app:destination="@id/seeAll"
+            app:popUpTo="@id/seeAll"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_home_to_serviceFragment"
+            app:destination="@id/serviceFragment"
+            app:popUpTo="@id/serviceFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkOut"
+        android:name="com.opentechspace.hire.UI.CheckOut"
+        android:label="fragment_check_out"
+        tools:layout="@layout/fragment_check_out" >
+        <action
+            android:id="@+id/action_checkOut_to_changeAddress"
+            app:destination="@id/changeAddress"
+            app:popUpTo="@id/changeAddress"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_checkOut_to_proceedToPay"
+            app:destination="@id/proceedToPay"
+            app:popUpTo="@id/proceedToPay"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/myProfile"
+        android:name="com.opentechspace.hire.UI.MyProfile"
+        android:label="fragment_my_profile"
+        tools:layout="@layout/fragment_my_profile" >
+        <action
+            android:id="@+id/action_myProfile_to_editMyProfile"
+            app:destination="@id/editMyProfile" />
+        <action
+            android:id="@+id/action_myProfile_to_account"
+            app:destination="@id/account"
+            app:popUpTo="@id/account"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeAll"
+        android:name="com.opentechspace.hire.UI.SeeAll"
+        android:label="fragment_see_all"
+        tools:layout="@layout/fragment_see_all" >
+        <action
+            android:id="@+id/action_seeAll_to_serviceFragment"
+            app:destination="@id/serviceFragment"
+            app:popUpTo="@id/serviceFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_seeAll_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.opentechspace.hire.UI.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" >
+        <action
+            android:id="@+id/action_serviceFragment_to_seeAll"
+            app:destination="@id/seeAll" />
+        <argument
+            android:name="title1"
+            app:argType="string" />
+        <argument
+            android:name="arrowBack"
+            app:argType="integer" />
+        <argument
+            android:name="originalTitle"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_serviceFragment_to_checkOut"
+            app:destination="@id/checkOut"
+            app:popUpTo="@id/checkOut"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_serviceFragment_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/account"
+        android:name="com.opentechspace.hire.UI.Account"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_account_to_myProfile"
+            app:destination="@id/myProfile"
+            app:popUpTo="@id/myProfile"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/editMyProfile"
+        android:name="com.opentechspace.hire.UI.EditMyProfile"
+        android:label="fragment_edit_my_profile"
+        tools:layout="@layout/fragment_edit_my_profile" >
+        <action
+            android:id="@+id/action_editMyProfile_to_myProfile"
+            app:destination="@id/myProfile"
+            app:popUpTo="@id/myProfile"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeAddress"
+        android:name="com.opentechspace.hire.UI.ChangeAddress"
+        android:label="fragment_change_address"
+        tools:layout="@layout/fragment_change_address" >
+        <action
+            android:id="@+id/action_changeAddress_to_checkOut"
+            app:destination="@id/checkOut"
+            app:popUpTo="@id/checkOut"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/proceedToPay"
+        android:name="com.opentechspace.hire.UI.ProceedToPay"
+        android:label="fragment_proceed_to_pay"
+        tools:layout="@layout/fragment_proceed_to_pay" >
+        <action
+            android:id="@+id/action_proceedToPay_to_done"
+            app:destination="@id/done"
+            app:popUpTo="@id/done"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_proceedToPay_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/done"
+        android:name="com.opentechspace.hire.UI.Done"
+        android:label="fragment_done"
+        tools:layout="@layout/fragment_done" >
+        <action
+            android:id="@+id/action_done_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

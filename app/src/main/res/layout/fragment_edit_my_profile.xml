@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/edit_fragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.EditMyProfile">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/myprofileback"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/circles" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/editProfileImage"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:elevation="8dp"
+                android:layout_marginTop="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/user_avtar"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="-50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:elevation="2dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/backgroundmenu"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editProfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Name"
+                    android:layout_marginTop="60dp"
+                    android:elevation="8dp"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Praveen Singh"
+                    android:background="@drawable/viewcartback"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/cake" />
+
+                        <EditText
+                            android:id="@+id/editProfileAge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:padding="4dp"
+                            android:background="@drawable/viewcartback"
+                            android:text="21"
+                            android:inputType="number"
+                            android:layout_marginStart="28dp"
+                            android:textSize="16sp"
+                            android:hint="Enter Your Age"
+                            android:fontFamily="@font/roboto_medium"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/mobileno" />
+
+                        <EditText
+                            android:id="@+id/editPhoneNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:padding="4dp"
+                            android:background="@drawable/viewcartback"
+                            android:text="7898989712"
+                            android:inputType="number"
+                            android:layout_marginStart="28dp"
+                            android:textSize="16sp"
+                            android:hint="Enter Your Mobile Number"
+                            android:fontFamily="@font/roboto_medium"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/emailme" />
+
+                        <EditText
+                            android:id="@+id/editProfileEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:padding="4dp"
+                            android:background="@drawable/viewcartback"
+                            android:text="singpraveen2010@gmail.com"
+                            android:inputType="textEmailAddress"
+                            android:layout_marginStart="28dp"
+                            android:textSize="16sp"
+                            android:hint="Enter Your Email"
+                            android:fontFamily="@font/roboto_medium"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/house" />
+
+                        <EditText
+                            android:id="@+id/editProfileHouseNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:padding="4dp"
+                            android:background="@drawable/viewcartback"
+                            android:text="54"
+                            android:inputType="textEmailAddress"
+                            android:layout_marginStart="28dp"
+                            android:textSize="16sp"
+                            android:hint="Enter Your House No"
+                            android:fontFamily="@font/roboto_medium"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/google_maps" />
+
+                        <EditText
+                            android:id="@+id/editProfileAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:padding="4dp"
+                            android:background="@drawable/viewcartback"
+                            android:text="Saraswati nagar Gwalior"
+                            android:inputType="textEmailAddress"
+                            android:layout_marginStart="28dp"
+                            android:textSize="16sp"
+                            android:hint="Enter Your Complete Address"
+                            android:fontFamily="@font/roboto_medium"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/green_city" />
+
+                        <EditText
+                            android:id="@+id/editProfileCity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:padding="4dp"
+                            android:background="@drawable/viewcartback"
+                            android:text="Gwalior"
+                            android:inputType="textEmailAddress"
+                            android:layout_marginStart="28dp"
+                            android:textSize="16sp"
+                            android:hint="Enter Your City Name"
+                            android:fontFamily="@font/roboto_medium"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/india_gate" />
+
+                        <EditText
+                            android:id="@+id/editProfilePincode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:padding="4dp"
+                            android:background="@drawable/viewcartback"
+                            android:text="678934"
+                            android:inputType="textEmailAddress"
+                            android:layout_marginStart="28dp"
+                            android:textSize="16sp"
+                            android:hint="Enter Your Pincode"
+                            android:fontFamily="@font/roboto_medium"/>
+                    </LinearLayout>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginEnd="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="8dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/updateProfile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Save"
+                            android:background="@drawable/done"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:textSize="20sp" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
