@@ -11,3 +11,15 @@ This application is develop in an idea of providing on-demand Services to tier2 
 <br>
 
 Build With 🛠
+
+**Kotlin** - First class and official programming language for Android development.
+**Coroutines** - For asynchronous and more.
+**Android Architecture Components** - Collection of libraries that help you design robust, testable, and maintainable apps.
+**ViewModel** - Stores UI-related data that isn't destroyed on UI changes.
+**Firebase** - Firebase is Google's mobile application development platform that helps you build, improve, and grow your app.
+**FireStore** - Cloud Firestore is a flexible, scalable NoSQL cloud database for mobile, web, and server development from Firebase and Google Cloud.
+**Firebase Auth** - Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app.
+**Glide** - Glide is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and 
+**Material Components for Android** - Modular and customizable Material Design UI components for Android.
+**Some more 3rd party libraries used in this project** :
+**CircularImageView** - This is an Android project allowing to realize a circular ImageView in the simplest way possible.
