@@ -26,7 +26,7 @@ Build With 🛠
 
 **Firebase Auth** - Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app.
 
-**Glide** - Glide is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching.
+**Glide** - Glide is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
 
 **Material Components for Android** - Modular and customizable Material Design UI components for Android.
 
